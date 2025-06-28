@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,33 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom automotive theme colors
+				'auto-red': {
+					DEFAULT: '#DC2626',
+					50: '#FEF2F2',
+					100: '#FEE2E2',
+					200: '#FECACA',
+					300: '#FCA5A5',
+					400: '#F87171',
+					500: '#EF4444',
+					600: '#DC2626',
+					700: '#B91C1C',
+					800: '#991B1B',
+					900: '#7F1D1D'
+				},
+				'auto-black': {
+					DEFAULT: '#0F0F0F',
+					50: '#F8F8F8',
+					100: '#E5E5E5',
+					200: '#CCCCCC',
+					300: '#B3B3B3',
+					400: '#999999',
+					500: '#808080',
+					600: '#666666',
+					700: '#4D4D4D',
+					800: '#1A1A1A',
+					900: '#0F0F0F'
 				}
 			},
 			borderRadius: {
@@ -84,11 +112,36 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'slide-up': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(30px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'slide-up': 'slide-up 0.6s ease-out'
+			},
+			fontFamily: {
+				'roboto': ['Roboto', 'sans-serif'],
 			}
 		}
 	},
