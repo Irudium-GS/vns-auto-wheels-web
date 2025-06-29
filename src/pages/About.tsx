@@ -24,12 +24,12 @@ const About = () => {
   ];
 
   const achievements = [
-    "5+ Years of Experience",
-    "500+ Satisfied Customers",
     "Expert Technicians",
     "Genuine Parts Guaranteed",
     "Quick Turnaround Time",
-    "Trusted by Local Community"
+    "Trusted Local Service",
+    "Fair & Transparent Pricing",
+    "Professional Equipment"
   ];
 
   const services = [
@@ -48,7 +48,7 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6 text-gradient">About VNS Auto Spares</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Your trusted partner for motorcycle servicing, spare parts, and engine oils in Palayam, Karur. 
+            Your trusted partner for motorcycle servicing, spare parts, and engine oils in Palayam, Dindigul District. 
             Committed to keeping your ride smooth and reliable.
           </p>
         </div>
@@ -64,23 +64,21 @@ const About = () => {
                 <p>
                   VNS Auto Spares was established with a simple mission: to provide reliable, 
                   professional motorcycle servicing and genuine spare parts to the people of 
-                  Palayam, Karur, and surrounding areas.
+                  Palayam, Dindigul District, and surrounding areas.
                 </p>
                 <p>
-                  What started as a small workshop has grown into a trusted service center, 
-                  thanks to our commitment to quality, honesty, and customer satisfaction. 
-                  We understand that your motorcycle is not just a vehicle – it's your 
+                  We are a fresh and dedicated team passionate about two-wheeler maintenance 
+                  and repair. We understand that your motorcycle is not just a vehicle – it's your 
                   daily companion, your freedom, and often your livelihood.
                 </p>
                 <p>
-                  Over the years, we have built strong relationships with our customers 
-                  by providing transparent, reliable service at fair prices. Our team of 
-                  experienced technicians treats every motorcycle with the same care and 
-                  attention they would give their own.
+                  Our commitment is to provide transparent, reliable service at fair prices. 
+                  Our team of skilled technicians treats every motorcycle with the utmost care and 
+                  attention, ensuring quality workmanship in every service.
                 </p>
                 <p>
-                  Today, VNS Auto Spares is proud to be a part of the Palayam community, 
-                  serving hundreds of satisfied customers who trust us with their 
+                  We're excited to be part of the Palayam community and look forward to 
+                  building lasting relationships with customers who will trust us with their 
                   motorcycle service needs.
                 </p>
               </div>
@@ -98,7 +96,7 @@ const About = () => {
               <div className="bg-auto-black-700 p-6 rounded-lg border border-auto-red-600/20">
                 <h3 className="text-xl font-bold text-white mb-4">Our Vision</h3>
                 <p className="text-gray-400">
-                  To be the most trusted motorcycle service center in Karur, known for 
+                  To become the most trusted motorcycle service center in Dindigul District, known for 
                   quality work, fair pricing, and exceptional customer service.
                 </p>
               </div>
@@ -154,7 +152,7 @@ const About = () => {
             </div>
 
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-white">Our Achievements</h2>
+              <h2 className="text-4xl font-bold mb-6 text-white">Our Strengths</h2>
               <div className="grid grid-cols-2 gap-4">
                 {achievements.map((achievement, index) => (
                   <div key={index} className="bg-auto-black-700 p-4 rounded-lg border border-auto-red-600/20 text-center">
@@ -173,7 +171,7 @@ const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-white">Meet Our Team</h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-              Experienced professionals dedicated to excellent service
+              Dedicated professionals committed to excellent service
             </p>
           </div>
 
@@ -184,12 +182,12 @@ const About = () => {
                   <span className="text-white font-bold text-2xl">V</span>
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">VNS Auto Spares Team</h3>
-                <p className="text-auto-red-400 mb-4">Expert Technicians & Customer Service</p>
+                <p className="text-auto-red-400 mb-4">Skilled Technicians & Customer Service</p>
                 <p className="text-gray-400 max-w-2xl mx-auto">
-                  Our team consists of experienced motorcycle technicians who are passionate about 
-                  their work. We continuously update our skills and knowledge to provide the best 
+                  Our team consists of passionate motorcycle technicians who are dedicated to 
+                  providing quality service. We continuously learn and update our skills to provide the best 
                   service for all types of motorcycles and scooters. Every team member is committed 
-                  to maintaining the highest standards of workmanship and customer service.
+                  to maintaining high standards of workmanship and customer service.
                 </p>
               </CardContent>
             </Card>
@@ -202,8 +200,8 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4 text-white">Experience the VNS Difference</h2>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-            Join hundreds of satisfied customers who trust VNS Auto Spares for their 
-            motorcycle service needs. Experience quality service with personal attention.
+            Start your journey with VNS Auto Spares for reliable motorcycle 
+            service. Experience quality service with personal attention.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="outline" className="bg-white text-auto-red-600 border-white hover:bg-red-50 px-8 py-6" asChild>

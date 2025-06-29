@@ -10,37 +10,43 @@ const SpareParts = () => {
       icon: Settings,
       title: "Engine Parts",
       description: "Pistons, rings, valves, gaskets and complete engine components",
-      items: ["Pistons & Rings", "Valves", "Gaskets", "Cylinder Heads", "Crankshafts"]
+      items: ["Pistons & Rings", "Valves", "Gaskets", "Cylinder Heads", "Crankshafts"],
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Brake System",
       description: "Brake pads, discs, shoes and complete braking system parts",
-      items: ["Brake Pads", "Brake Discs", "Brake Shoes", "Brake Cables", "Master Cylinders"]
+      items: ["Brake Pads", "Brake Discs", "Brake Shoes", "Brake Cables", "Master Cylinders"],
+      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Settings,
       title: "Electrical Parts",
       description: "Batteries, lights, wiring and electrical system components",
-      items: ["Batteries", "LED Lights", "Wiring Harness", "Switches", "Indicators"]
+      items: ["Batteries", "LED Lights", "Wiring Harness", "Switches", "Indicators"],
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Body Parts",
       description: "Panels, mirrors, handles and exterior body components",
-      items: ["Side Panels", "Mirrors", "Handle Grips", "Footrests", "Mudguards"]
+      items: ["Side Panels", "Mirrors", "Handle Grips", "Footrests", "Mudguards"],
+      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Settings,
       title: "Transmission",
       description: "Clutch plates, chains, sprockets and transmission parts",
-      items: ["Clutch Plates", "Drive Chains", "Sprockets", "Gear Cables", "Chain Covers"]
+      items: ["Clutch Plates", "Drive Chains", "Sprockets", "Gear Cables", "Chain Covers"],
+      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Suspension",
       description: "Shock absorbers, springs and suspension system parts",
-      items: ["Shock Absorbers", "Springs", "Bushings", "Fork Seals", "Swing Arms"]
+      items: ["Shock Absorbers", "Springs", "Bushings", "Fork Seals", "Swing Arms"],
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     }
   ];
 
@@ -61,8 +67,15 @@ const SpareParts = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-auto-black-900 via-auto-black-800 to-auto-red-900/20">
-        <div className="container mx-auto px-4 text-center">
+      <section className="py-20 bg-gradient-to-br from-auto-black-900 via-auto-black-800 to-auto-red-900/20 relative">
+        <div className="absolute inset-0 opacity-10">
+          <img 
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80" 
+            alt="Spare parts background" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl font-bold mb-6 text-gradient">Spare Parts</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Genuine and compatible spare parts for all major 2-wheeler brands. 
@@ -83,7 +96,14 @@ const SpareParts = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {categories.map((category, index) => (
-              <Card key={index} className="bg-auto-black-700 border-auto-red-600/20 hover:border-auto-red-500/40 transition-all duration-300 hover:transform hover:scale-105">
+              <Card key={index} className="bg-auto-black-700 border-auto-red-600/20 hover:border-auto-red-500/40 transition-all duration-300 hover:transform hover:scale-105 overflow-hidden">
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={category.image} 
+                    alt={category.title}
+                    className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-300"
+                  />
+                </div>
                 <CardHeader>
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-auto-red-500 to-auto-red-700 rounded-lg flex items-center justify-center">
@@ -159,35 +179,44 @@ const SpareParts = () => {
               </div>
             </div>
 
-            <div className="bg-auto-black-700 p-8 rounded-lg border border-auto-red-600/20">
-              <h3 className="text-2xl font-bold mb-6 text-white">How to Order</h3>
-              <div className="space-y-6">
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">1</div>
-                  <div>
-                    <h4 className="font-semibold text-white mb-1">Contact Us</h4>
-                    <p className="text-gray-400 text-sm">Message us on WhatsApp with your requirements</p>
+            <div className="relative">
+              <img 
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                alt="Quality motorcycle parts"
+                className="rounded-lg shadow-2xl"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-auto-black-900/50 to-transparent rounded-lg"></div>
+              
+              <div className="bg-auto-black-700 p-8 rounded-lg border border-auto-red-600/20 mt-8">
+                <h3 className="text-2xl font-bold mb-6 text-white">How to Order</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">1</div>
+                    <div>
+                      <h4 className="font-semibold text-white mb-1">Contact Us</h4>
+                      <p className="text-gray-400 text-sm">Message us on WhatsApp with your requirements</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">2</div>
-                  <div>
-                    <h4 className="font-semibold text-white mb-1">Check Availability</h4>
-                    <p className="text-gray-400 text-sm">We'll check availability and provide pricing</p>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">2</div>
+                    <div>
+                      <h4 className="font-semibold text-white mb-1">Check Availability</h4>
+                      <p className="text-gray-400 text-sm">We'll check availability and provide pricing</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">3</div>
-                  <div>
-                    <h4 className="font-semibold text-white mb-1">Confirm Order</h4>
-                    <p className="text-gray-400 text-sm">Confirm your order and arrange pickup/delivery</p>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">3</div>
+                    <div>
+                      <h4 className="font-semibold text-white mb-1">Confirm Order</h4>
+                      <p className="text-gray-400 text-sm">Confirm your order and arrange pickup/delivery</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">4</div>
-                  <div>
-                    <h4 className="font-semibold text-white mb-1">Installation</h4>
-                    <p className="text-gray-400 text-sm">Professional installation service available</p>
+                  <div className="flex items-start space-x-4">
+                    <div className="w-8 h-8 bg-auto-red-600 rounded-full flex items-center justify-center text-white font-bold text-sm">4</div>
+                    <div>
+                      <h4 className="font-semibold text-white mb-1">Installation</h4>
+                      <p className="text-gray-400 text-sm">Professional installation service available</p>
+                    </div>
                   </div>
                 </div>
               </div>

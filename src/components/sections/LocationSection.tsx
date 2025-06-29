@@ -9,7 +9,7 @@ const LocationSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-white">Visit Our Service Center</h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Strategically located on Palayam to Dindigul Road for easy access from all parts of Karur
+            Strategically located on Palayam to Dindigul Road for easy access from all parts of Dindigul District
           </p>
         </div>
 
@@ -23,7 +23,7 @@ const LocationSection = () => {
                   <p className="text-gray-400 mb-4">
                     VNS Auto Spares<br />
                     Palayam to Dindigul Road<br />
-                    Palayam, Karur - 639002<br />
+                    Palayam, Dindigul District<br />
                     Tamil Nadu, India
                   </p>
                   <div className="flex items-center space-x-2 text-sm text-gray-500">
@@ -97,14 +97,14 @@ const LocationSection = () => {
 
           <div className="h-96 bg-auto-black-700 rounded-lg overflow-hidden border border-auto-red-600/20">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.1234567890123!2d78.0766!3d10.9577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85c9c1d2c1d2c%3A0x1d2c1d2c1d2c1d2c!2sPalayam%2C%20Karur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=10.7257696%2C78.1348896&z=17&hl=en&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="VNS Auto Spares Location - Palayam to Dindigul Road, Karur"
+              title="VNS Auto Spares Location - Palayam to Dindigul Road, Dindigul District"
             ></iframe>
           </div>
         </div>
