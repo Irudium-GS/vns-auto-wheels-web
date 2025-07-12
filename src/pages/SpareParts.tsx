@@ -25,28 +25,28 @@ const SpareParts = () => {
       title: "Electrical Parts",
       description: "Batteries, lights, wiring and electrical system components",
       items: ["Batteries", "LED Lights", "Wiring Harness", "Switches", "Indicators"],
-      image: "https://images.unsplash.com/photo-1615991736325-9ba7e54c7a30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Body Parts",
       description: "Panels, mirrors, handles and exterior body components",
       items: ["Side Panels", "Mirrors", "Handle Grips", "Footrests", "Mudguards"],
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Settings,
       title: "Transmission",
       description: "Clutch plates, chains, sprockets and transmission parts",
       items: ["Clutch Plates", "Drive Chains", "Sprockets", "Gear Cables", "Chain Covers"],
-      image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Suspension",
       description: "Shock absorbers, springs and suspension system parts",
       items: ["Shock Absorbers", "Springs", "Bushings", "Fork Seals", "Swing Arms"],
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1572377639671-ba75c5afaef0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     }
   ];
 
