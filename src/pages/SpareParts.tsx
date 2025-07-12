@@ -11,42 +11,42 @@ const SpareParts = () => {
       title: "Engine Parts",
       description: "Pistons, rings, valves, gaskets and complete engine components",
       items: ["Pistons & Rings", "Valves", "Gaskets", "Cylinder Heads", "Crankshafts"],
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Brake System",
       description: "Brake pads, discs, shoes and complete braking system parts",
       items: ["Brake Pads", "Brake Discs", "Brake Shoes", "Brake Cables", "Master Cylinders"],
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Settings,
       title: "Electrical Parts",
       description: "Batteries, lights, wiring and electrical system components",
       items: ["Batteries", "LED Lights", "Wiring Harness", "Switches", "Indicators"],
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1615991736325-9ba7e54c7a30?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Body Parts",
       description: "Panels, mirrors, handles and exterior body components",
       items: ["Side Panels", "Mirrors", "Handle Grips", "Footrests", "Mudguards"],
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Settings,
       title: "Transmission",
       description: "Clutch plates, chains, sprockets and transmission parts",
       items: ["Clutch Plates", "Drive Chains", "Sprockets", "Gear Cables", "Chain Covers"],
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Car,
       title: "Suspension",
       description: "Shock absorbers, springs and suspension system parts",
       items: ["Shock Absorbers", "Springs", "Bushings", "Fork Seals", "Swing Arms"],
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     }
   ];
 
@@ -181,7 +181,7 @@ const SpareParts = () => {
 
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                 alt="Quality motorcycle parts"
                 className="rounded-lg shadow-2xl"
               />

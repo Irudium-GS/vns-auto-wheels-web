@@ -4,11 +4,6 @@ import { Star, Clock, Users, Shield, Award, ThumbsUp } from 'lucide-react';
 const WhyChooseUsSection = () => {
   const advantages = [
     {
-      icon: Award,
-      title: "15+ Years Experience",
-      description: "Extensive experience in motorcycle and scooter servicing with deep technical knowledge of all major brands."
-    },
-    {
       icon: Shield,
       title: "Quality Guarantee",
       description: "All services come with quality assurance and warranty on parts and labor for complete peace of mind."
@@ -25,13 +20,18 @@ const WhyChooseUsSection = () => {
     },
     {
       icon: Users,
-      title: "Trusted by 5000+ Customers",
-      description: "Serving the Palayam and Karur community with dedication, building long-term relationships through reliable service."
+      title: "Trusted by Community",
+      description: "Serving the Palayam and Dindigul community with dedication, building long-term relationships through reliable service."
     },
     {
       icon: ThumbsUp,
       title: "Customer Satisfaction",
-      description: "95% customer satisfaction rate with repeat customers who trust us for all their two-wheeler needs."
+      description: "High customer satisfaction rate with repeat customers who trust us for all their two-wheeler needs."
+    },
+    {
+      icon: Award,
+      title: "Certified Technicians",
+      description: "Our skilled technicians are trained in the latest techniques and technologies to serve you better."
     }
   ];
 
