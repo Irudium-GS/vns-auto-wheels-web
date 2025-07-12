@@ -32,7 +32,7 @@ const SpareParts = () => {
       title: "Body Parts",
       description: "Panels, mirrors, handles and exterior body components",
       items: ["Side Panels", "Mirrors", "Handle Grips", "Footrests", "Mudguards"],
-      image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     },
     {
       icon: Settings,
@@ -46,7 +46,7 @@ const SpareParts = () => {
       title: "Suspension",
       description: "Shock absorbers, springs and suspension system parts",
       items: ["Shock Absorbers", "Springs", "Bushings", "Fork Seals", "Swing Arms"],
-      image: "https://images.unsplash.com/photo-1572377639671-ba75c5afaef0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1609979341138-db60a4c73332?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     }
   ];
 
