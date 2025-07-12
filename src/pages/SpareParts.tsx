@@ -46,7 +46,7 @@ const SpareParts = () => {
       title: "Suspension",
       description: "Shock absorbers, springs and suspension system parts",
       items: ["Shock Absorbers", "Springs", "Bushings", "Fork Seals", "Swing Arms"],
-      image: "https://images.unsplash.com/photo-1609979341138-db60a4c73332?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://images.unsplash.com/photo-1581888227599-779811939961?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
     }
   ];
 
