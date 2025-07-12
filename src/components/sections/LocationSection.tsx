@@ -97,14 +97,14 @@ const LocationSection = () => {
 
           <div className="h-96 bg-auto-black-700 rounded-lg overflow-hidden border border-auto-red-600/20">
             <iframe
-              src="https://maps.google.com/maps?q=10.7257696%2C78.1348896&z=17&hl=en&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162.05073!2d78.1343935!3d10.7230731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa174e0fe30e43%3A0xe406e1a3b252731f!2sVNS%20AUTOSPARE!5e1!3m2!1sen!2sin!4v1699999999999!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="VNS Auto Spares Location - Palayam to Dindigul Road, Dindigul District"
+              title="VNS AUTOSPARE - Dindigul"
             ></iframe>
           </div>
         </div>
